@@ -15,12 +15,15 @@ I'm an Electrical Engineering student specializing in embedded systems, mixed-si
 ![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
 ![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Verilog](https://img.shields.io/badge/-Verilog-8B4513?style=flat-square)
 
-### Engineering Tools
+### Tools & Skills
 ![KiCAD](https://img.shields.io/badge/-KiCAD-314CB0?style=flat-square&logo=kicad&logoColor=white)
 ![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![FPGA](https://img.shields.io/badge/-FPGA-orange?style=flat-square)
 ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
 
+Built my portfolio website (HTML/CSS/JS) to showcase engineering projects → [electricalromero.com](https://electricalromero.com)
 ### Web Development (Portfolio Projects)
 ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
