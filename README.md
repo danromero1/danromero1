@@ -26,32 +26,32 @@ Tools: STM32CubeIDE, MPLAB X, LTspice, Git
 ### Mixed-Signal Guitar Effects Pedal (STM32 + external ADC/DAC)
 Programmable guitar effects pedal built on a 4-layer mixed-signal PCB with real-time DSP on an STM32. Designed for low-noise audio conversion and deterministic buffering.
 - Highlights: 3rd-order Butterworth anti-aliasing, EQ, soft-clipping distortion, USB-C power
-- Engineering focus: analog/digital isolation, signal integrity, power distribution, firmware DSP pipeline
-Repo: (add link)
+- Engineering focus: analog/digital isolation, signal integrity, power distribution, firmware DSP pipeline  
+Repo: [Mixed-Signal-Guitar-Effects-Pedal](https://github.com/danromero1/Mixed-Signal-Guitar-Effects-Pedal)
 
 ### WBGT Heat Stress Monitor (PIC18F4321)
 Portable WBGT heat stress monitor that fuses temperature/humidity, light, and wind measurements to compute heat risk levels and display real-time safety guidance.
-- Highlights: DHT11 single-wire protocol, BH1750 bit-banged I2C, ADC wind sensing, 20×4 LCD UI
-- Engineering focus: timing-sensitive comms, fixed-point computation, resource-aware firmware
-Repo: (add link)
+- Highlights: DHT11 single-wire protocol, BH1750 bit-banged I²C, ADC wind sensing, 20×4 LCD UI
+- Engineering focus: timing-sensitive comms, fixed-point computation, resource-aware firmware  
+Repo: [Wet-Bulb-Globe-Temperature-Embedded-Project](https://github.com/danromero1/Wet-Bulb-Globe-Temperature-Embedded-Project)
 
 ### Verilog Pong Game (Nexys A7 FPGA + VGA)
 Hand-written Verilog implementation of Pong on an FPGA with VGA output, real-time paddle control, and hardware collision detection.
 - Highlights: 640×480@60Hz VGA timing, 25 MHz pixel clock, frame-synced updates
-- Engineering focus: synchronous design, counters/timing, combinational collision logic, modular RTL
-Repo: (add link)
+- Engineering focus: synchronous design, counters/timing, combinational collision logic, modular RTL  
+Repo: [Verilog-Pong-Game](https://github.com/danromero1/Verilog-Pong-Game)
 
 ### Wireless PID Motor Control System (Arduino + nRF24L01 + LabVIEW)
-Closed-loop motor speed control with wireless command + telemetry and a LabVIEW dashboard for monitoring and tuning.
+Closed-loop motor speed control with wireless command and telemetry plus a LabVIEW dashboard for monitoring and tuning.
 - Highlights: encoder-based RPM feedback, anti-windup PID, bidirectional RF packets, real-time plotting/logging
-- Engineering focus: real-time scheduling, interrupt-driven measurement, control stability, system integration
-Repo: (add link)
+- Engineering focus: real-time scheduling, interrupt-driven measurement, control stability, system integration  
+Repo: [Wireless-Motor-Control-PID](https://github.com/danromero1/Wireless-Motor-Control-PID)
 
 ### STM32 Demo PCB (KiCAD)
-First end-to-end STM32 board design created to learn professional schematic + PCB fundamentals.
-- Highlights: clock/reset/boot circuitry, regulation + decoupling, SWD header, manufacturing-ready outputs
-- Engineering focus: datasheet-driven design, ERC/DRC compliance, layout fundamentals
-Repo: (add link)
+First end-to-end STM32 board design created to learn professional schematic and PCB fundamentals.
+- Highlights: clock/reset/boot circuitry, regulation and decoupling, SWD header, manufacturing-ready outputs
+- Engineering focus: datasheet-driven design, ERC/DRC compliance, layout fundamentals  
+Repo: [STM32-Demo-PCB](https://github.com/danromero1/STM32-Demo-PCB)
 
 ---
 
