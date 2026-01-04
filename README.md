@@ -1,60 +1,63 @@
-# Hi there, I'm Daniel! 👋
+# Hi, I’m Daniel Romero
 
-## 🚀 About Me
-I'm an Electrical Engineering student specializing in embedded systems, mixed-signal design, and IC reliability research. Currently working on predictive aging models for drone electronics and designing a real-time DSP guitar effects pedal.
+Electrical Engineering student focused on embedded systems, mixed-signal hardware, and reliability research. I like building real devices end-to-end: schematic → PCB → firmware → validation (scope + DMM on the bench).
 
-- 🔬 Researching IC degradation in drone ESCs using SPICE simulation and thermal stress testing
-- 🔭 Designing a 4-layer mixed-signal PCB for real-time audio DSP effects
-- 🌱 Deep diving into DSP theory (Smith & Lyons textbooks)
-- 💼 Open to Entry-level EE positions, co-ops, and internships
-- 📫 daniel.romero@ieee.org
-
-## 🛠️ Tech Stack
-
-### Languages
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Verilog](https://img.shields.io/badge/-Verilog-8B4513?style=flat-square)
-
-### Tools & Skills
-![KiCAD](https://img.shields.io/badge/-KiCAD-314CB0?style=flat-square&logo=kicad&logoColor=white)
-![STM32](https://img.shields.io/badge/-STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![FPGA](https://img.shields.io/badge/-FPGA-orange?style=flat-square)
-![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-Built my portfolio website (HTML/CSS/JS) to showcase engineering projects → [electricalromero.com](https://electricalromero.com)
-### Web Development (Portfolio Projects)
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-
-## 🌟 Featured Projects
-
-### [Amphibious Drone - Buoyancy Control System](link-to-repo)
-Designed and tested buoyancy control systems for an amphibious drone prototype capable of flight and submersion. Evaluated dual-diaphragm and peristaltic pump systems, selecting the dual-diaphragm design for superior reliability and water transfer performance despite increased mechanical complexity.
-- **Tech Stack**: Mechanical Design, Fluid Dynamics, System Integration
-- **Key Features**: Dual-Diaphragm Water Transfer, Submersion Control, Flight-to-Dive Integration, Prototype Testing
-- **Team Role**: Buoyancy System Lead - Testing & Design Selection
-
-### [Drone IC Aging & Reliability Research](link-to-repo)
-Investigating integrated circuit degradation in drone ESCs through combined physical stress testing and SPICE-based circuit simulation. Analyzing thermal-mechanical stress cycles on MOSFETs, voltage regulators, and gate drivers to predict long-term reliability and establish safe operational limits.
-- **Tech Stack**: SPICE Simulation, LTspice, Monte Carlo Analysis, Telemetry Data Collection
-- **Key Features**: Thermal-Stress Testing, MOSFET Temperature Analysis, ESC Current Draw & Ripple Analysis, Monte Carlo Tolerance Modeling, Degradation Prediction Models
-- **Research Goal**: Predictive reliability models for cycles-to-degradation and actionable operational limits
-
-### [Guitar Effects Pedal - Mixed-Signal Design](link-to-repo)
-A 4-layer PCB design for a programmable guitar effects pedal using external ADC/DAC with STM32 for real-time DSP processing. Features multiple effects including anti-aliasing filtering, equalization, and soft-clipping distortion.
-- **Tech Stack**: KiCAD, STM32CubeIDE, LTspice, C
-- **Key Features**: High-speed ADC/DAC Interface, 3rd-Order Butterworth Filter, 4-layer PCB, USB-C Power, Real-time Audio DSP
-
-## 📫 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/daniel-romero-ee/)
-[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://electricalromero.com/)
-[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:daniel.romero@ieee.org)
+- IC reliability research: predictive aging / degradation modeling for drone electronics (ESC-focused)
+- Mixed-signal audio: 4-layer STM32-based guitar effects pedal with external ADC/DAC + real-time DSP
+- Digital design: FPGA/Verilog projects (timing, video, hardware state machines)
+- Open to entry-level EE roles, co-ops, and internships
+- Contact: daniel.romero@ieee.org
+- Portfolio: https://electricalromero.com
 
 ---
 
-⭐️ From [danromero1](https://github.com/danromero1)
+## Core skills
+
+Embedded / firmware: C, C++, peripheral bring-up, timing-sensitive protocols, fixed-point math, FSM-based control  
+Hardware / PCB: KiCAD, 4-layer layout, grounding/return paths, decoupling, mixed-signal partitioning  
+Digital design: Verilog, FPGA development, VGA timing, synthesized game/state logic  
+Validation: oscilloscope + DMM, interface debugging, sensor/ADC verification  
+Tools: STM32CubeIDE, MPLAB X, LTspice, Git
+
+---
+
+## Featured projects
+
+### Mixed-Signal Guitar Effects Pedal (STM32 + external ADC/DAC)
+Programmable guitar effects pedal built on a 4-layer mixed-signal PCB with real-time DSP on an STM32. Designed for low-noise audio conversion and deterministic buffering.
+- Highlights: 3rd-order Butterworth anti-aliasing, EQ, soft-clipping distortion, USB-C power
+- Engineering focus: analog/digital isolation, signal integrity, power distribution, firmware DSP pipeline
+Repo: (add link)
+
+### WBGT Heat Stress Monitor (PIC18F4321)
+Portable WBGT heat stress monitor that fuses temperature/humidity, light, and wind measurements to compute heat risk levels and display real-time safety guidance.
+- Highlights: DHT11 single-wire protocol, BH1750 bit-banged I2C, ADC wind sensing, 20×4 LCD UI
+- Engineering focus: timing-sensitive comms, fixed-point computation, resource-aware firmware
+Repo: (add link)
+
+### Verilog Pong Game (Nexys A7 FPGA + VGA)
+Hand-written Verilog implementation of Pong on an FPGA with VGA output, real-time paddle control, and hardware collision detection.
+- Highlights: 640×480@60Hz VGA timing, 25 MHz pixel clock, frame-synced updates
+- Engineering focus: synchronous design, counters/timing, combinational collision logic, modular RTL
+Repo: (add link)
+
+### Wireless PID Motor Control System (Arduino + nRF24L01 + LabVIEW)
+Closed-loop motor speed control with wireless command + telemetry and a LabVIEW dashboard for monitoring and tuning.
+- Highlights: encoder-based RPM feedback, anti-windup PID, bidirectional RF packets, real-time plotting/logging
+- Engineering focus: real-time scheduling, interrupt-driven measurement, control stability, system integration
+Repo: (add link)
+
+### STM32 Demo PCB (KiCAD)
+First end-to-end STM32 board design created to learn professional schematic + PCB fundamentals.
+- Highlights: clock/reset/boot circuitry, regulation + decoupling, SWD header, manufacturing-ready outputs
+- Engineering focus: datasheet-driven design, ERC/DRC compliance, layout fundamentals
+Repo: (add link)
+
+---
+
+## Connect
+
+LinkedIn: https://www.linkedin.com/in/daniel-romero-ee/  
+GitHub: https://github.com/danromero1  
+Email: daniel.romero@ieee.org  
+Portfolio: https://electricalromero.com
